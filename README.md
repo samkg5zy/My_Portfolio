@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><img src="profile.jpg" alt="Salim's Photo" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 15px;" />
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
 <title>Salim Abdullahi Muhammad - Portfolio</title>
 <style>
   body {
@@ -14,7 +12,7 @@
     color: #333;
   }
   header {
-    
+    <img src="profile.jpg" alt="Salim's Photo" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 15px;" />
    text-align: center;
     margin-bottom: 40px;
   }
