@@ -1,114 +1,71 @@
 <!DOCTYPE html>
-<html lang="en"><img src="IMG-20240823-WA0009.jpg" alt="Salim's Photo" />
+<html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Salim Abdullahi Muhammad - Portfolio</title>
-<style> <style>
-  img {
-    display: block;
-    margin: 0 auto;
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 3px solid #4CAF50;
-  }
-</style>
-  body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    max-width: 700px;
-    margin: 40px auto;
-    padding: 20px;
-    background: #f9f9f9;
-    color: #333;
-  }
-  header {
-    text-align: center;
-    margin-bottom: 40px;
-  }
-  header img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 15px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  }
-  h1 {
-    color: #007acc;
-  }
-  p.intro {
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin-top: 5px;
-  }
-  section {
-    margin-bottom: 30px;
-  }
-  ul.skills {
-    list-style: none;
-    padding: 0;
-  }
-  ul.skills li {
-    background: #007acc;
-    color: white;
-    display: inline-block;
-    padding: 6px 12px;
-    margin: 4px 6px 4px 0;
-    border-radius: 20px;
-    font-weight: 600;
-  }
-  a {
-    color: #007acc;
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
-  footer {
-    text-align: center;
-    font-size: 0.9rem;
-    color: #666;
-    margin-top: 60px;
-  }
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Salim's Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f4f4f4;
+      color: #333;
+      padding: 20px;
+    }
+    img {
+      display: block;
+      margin: 20px auto;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #4CAF50;
+    }
+    h1 {
+      color: #4CAF50;
+    }
+    .section {
+      background-color: #fff;
+      padding: 15px;
+      margin: 20px auto;
+      max-width: 600px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-<header>
-  <img src="profile.jpg" alt="Salim's Photo" />
+  <img src="IMG-20240823-WA0009.jpg" alt="Salim's Photo" />
   <h1>Salim Abdullahi Muhammad</h1>
-  <p class="intro">Aspiring software engineer passionate about building clean, creative web solutions</p>
-</header>
+  <p><em>Aspiring software engineer passionate about building clean, creative web solutions</em></p>
 
-<section>
-  <h2>About Me</h2>
-  <p>My dream is to become a software engineer.</p>
-</section>
+  <div class="section">
+    <h2>About Me</h2>
+    <p>My dream is to become a software engineer.</p>
+  </div>
 
-<section>
-  <h2>Skills</h2>
-  <ul class="skills">
-    <li>Python</li>
-    <li>C++</li>
-    <li>Java</li>
-  </ul>
-</section>
+  <div class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li>Python</li>
+      <li>C++</li>
+      <li>Java</li>
+    </ul>
+  </div>
 
-<section>
-  <h2>Projects</h2>
-  <p><strong>My first webpage</strong></p>
-  <p>A simple webpage I created to learn HTML and web design.</p>
-</section>
+  <div class="section">
+    <h2>Projects</h2>
+    <p>My First Webpage</p>
+  </div>
 
-<section>
-  <h2>Contact</h2>
-  <p>Email: <a href="mailto:samkg5zy@gmail.com">samkg5zy@gmail.com</a></p>
-  <p>Instagram: <a href="https://instagram.com/samkg5zy" target="_blank">@samkg5zy</a></p>
-</section>
-
-<footer>
-  <p>© 2025 Salim Abdullahi Muhammad</p>
-</footer>
+  <div class="section">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:samkg5zy@gmail.com">samkg5zy@gmail.com</a></p>
+    <p>Instagram: <a href="https://instagram.com/samkg5zy" target="_blank">@samkg5zy</a></p>
+  </div>
 </body>
 </html>
