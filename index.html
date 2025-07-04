@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Salim's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">🧑‍💻 <strong>SalimDev</strong></div>
+    <button id="modeToggle">🌙</button>
+  </header>
+
+  <section class="intro">
+    <img src="profile.jpg" alt="Profile" id="profileImage" />
+    <h1 id="typewriter"></h1>
+    <p id="bioText">Aspiring software engineer passionate about creative solutions.</p>
+    <a href="resume.pdf" download class="btn">Download Resume</a>
+    <button id="editProfileBtn">Edit Profile</button>
+  </section>
+
+  <section id="info" class="hidden">
+    <h2>My Info</h2>
+    <p><strong>Full Name:</strong> <span id="fullName">Salim Abdullahi Muhammad</span></p>
+    <p><strong>Reg No:</strong> <span id="regNo">UG23SEN1078</span></p>
+    <p><strong>Phone:</strong> <span id="phone">+2347069925676</span></p>
+    <div class="levels">
+      <label><input type="checkbox" id="lv100" checked> Level 100</label>
+      <label><input type="checkbox" id="lv200" checked> Level 200</label>
+      <label><input type="checkbox" id="lv300"> Level 300</label>
+      <label><input type="checkbox" id="lv400"> Level 400</label>
+    </div>
+    <input type="file" id="imageUpload" accept="image/*">
+  </section>
+
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="about.html">About</a> |
+    <a href="contact.html">Contact</a> |
+    <a href="#" id="adminLoginBtn">Admin</a>
+  </nav>
+
+  <section class="projects">
+    <h2>Projects</h2>
+    <div id="projectList"></div>
+    <button id="addProjectBtn">➕ Add Project</button>
+  </section>
+
+  <div id="adminLoginModal" class="modal hidden">
+    <div class="modal-content">
+      <h3>Admin Login</h3>
+      <input type="text" id="adminUser" placeholder="Username">
+      <input type="password" id="adminPass" placeholder="Password">
+      <button id="adminLoginSubmit">Login</button>
+    </div>
+  </div>
+
+  <section class="footer-note">
+    <p>"I started learning code with zero background. This site is my first big step. More coming soon..."</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
