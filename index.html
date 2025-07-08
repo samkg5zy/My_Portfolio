@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Salim's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">👨‍💻 <strong>SalimDev</strong></div>
+    <button id="modeToggle">🌙</button>
+  </header>
+
+  <section class="intro">
+    <img src="IMG-20240823-WA0009.jpg" alt="Profile" id="profileImage" />
+    <h1 id="typewriter"></h1>
+    <p id="bioText">Aspiring software engineer passionate about creative solutions.</p>
+    <input type="file" id="imageUpload" accept="image/*" />
+    <a href="resume.pdf" download class="btn">Download Resume</a>
+  </section>
+
+  <section class="info-box">
+    <h2>My Info</h2>
+    <p><strong>Full Name:</strong> Salim Abdullahi Muhammad</p>
+    <p><strong>Reg No:</strong> UG23SEN1078</p>
+    <p><strong>Phone:</strong> +2347069925676</p>
+    <div class="levels">
+      <label><input type="checkbox" checked> Level 100</label>
+      <label><input type="checkbox" checked> Level 200</label>
+      <label><input type="checkbox"> Level 300</label>
+      <label><input type="checkbox"> Level 400</label>
+    </div>
+  </section>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section class="projects">
+    <h2>Projects</h2>
+    <div id="projectList"></div>
+    <button id="addProjectBtn">➕ Add Project</button>
+  </section>
+
+  <section class="footer-note">
+    <p>"I started learning code with zero background. This site is my first big step. More coming soon..."</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
